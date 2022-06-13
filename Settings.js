@@ -30,7 +30,7 @@ const Settings = (props) => {
                 />
                 <Input
                     style={styles.input}
-                    placeholder = 'E.G. 56,600'
+                    placeholder = 'E.G. 1140.50'
                     value={sss}
                     label = {evaProps => <Text {...evaProps}>Philhealth</Text>}
                     caption={evaProps => <Text {...evaProps}>Required</Text>}
@@ -38,7 +38,7 @@ const Settings = (props) => {
                 />
                 <Input
                     style={styles.input}
-                    placeholder = 'E.G. 56,600'
+                    placeholder = 'E.G. 660'
                     value={philhealth}
                     label = {evaProps => <Text {...evaProps}>SSS</Text>}
                     caption={evaProps => <Text {...evaProps}>Required</Text>}
